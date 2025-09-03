@@ -9,7 +9,9 @@ export default defineNuxtConfig({
   },
   future: { compatibilityVersion: 4 },
   compatibilityDate: '2025-03-01',
-  hub: {},
+  hub: {
+    database: true,
+  },
   eslint: {
     config: {
       standalone: false,
